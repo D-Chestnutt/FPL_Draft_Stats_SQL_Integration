@@ -1,0 +1,4 @@
+This is a programme to pull data from the https://fantasy.premierleague.com/ APis and export them to an SQL database so they can be used for statistical analysis.
+This was written to retrieve relevant data for a head to head draft league. Changes will be required for other formats.
+The file currently outputs to a database created on the local machine, to modify this you will need to update the connection string url in each of the classes in the SQL folder.
+Current connection string: "jdbc:sqlserver://localhost:1433;databaseName=Draft_Database;user=sa;password=Test123!"
